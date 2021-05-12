@@ -1,11 +1,15 @@
 /* main */
-nav{
+.left-nav{
     background: rgb(0, 0, 0);
 }
 
 .background-main{
     background: rgb(21, 25, 33);
     color: white;
+}
+
+.col-nav{
+    min-width: 200px;
 }
 
 .vh-100{
