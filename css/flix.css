@@ -1,6 +1,7 @@
 /*
  * Framework Flix v1.0
  * Copyright 2021 Filippo Mazzamuto
+ * Responsive Mobile First
  */
 :root{
     --bs-gutter-x: 15px;
@@ -78,6 +79,22 @@
 
 .padding-x{
     padding: 0 var(--bs-gutter-x);
+}
+
+.flex-nowrap{
+    flex-wrap: nowrap !important;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
 
 .container-fluid,
