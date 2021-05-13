@@ -97,6 +97,18 @@
     list-style: none;
 }
 
+.d-none{
+    display: none;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.text-center {
+    text-align: center;
+  }
+
 .container-fluid,
 .container{
     width: 100%;

@@ -20,6 +20,26 @@
     min-width: 50px;
 }
 
+.ico-nav{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.ico-download{
+    width: 34px;
+    padding: 0 8px;
+}
+
+.margin-bottom{
+    margin-bottom: 15px;
+}
+
+.avatar{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1px 3px;
+}
+
 .padding-xs-nav{
     padding: 5px;
 }
