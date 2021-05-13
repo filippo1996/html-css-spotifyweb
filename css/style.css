@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
 /* main */
 .left-nav{
     background: rgb(0, 0, 0);
@@ -58,8 +62,21 @@
     height: 80px;
 }
 
+.nav-link{
+    color: grey;
+    text-transform: uppercase;
+}
+
+.margin-right-link{
+    margin-right: 15px;
+}
+
 .padding-y-content-card{
     padding: 100px 30px;
+}
+
+.nav-main{
+    height: 80px;
 }
 
 
@@ -72,10 +89,35 @@ footer .content{
 
 
 /* debug */
+/*
 .debug .box{
     background: red;
 }
 
 .debug .container-fluid{
     background-color: pink;
+}
+
+.debug section.h-100{
+    background: yellow;
+}
+*/
+
+.debug div.padding-y-content-card{
+    background: red;
+}
+
+.debug .nav-main{
+    background: blue;
+}
+
+.debug .content-cards{
+    background:chartreuse;
+}
+
+.debug .card{
+    background-color: violet;
+    width: calc(150px - 10px);
+    height: 200px;
+    margin: 10px 5px 10px 0;
 }
