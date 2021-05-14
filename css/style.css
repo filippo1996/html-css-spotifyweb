@@ -22,6 +22,7 @@ body{
 
 .col-nav{
     min-width: 50px;
+    max-width: 50px;
 }
 
 .ico-nav{
@@ -56,10 +57,18 @@ body{
     height: calc(100vh - 80px);
 }
 
-.header-top{
+.call-to-action{
     background: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: calc(100% - 50px);
     height: 80px;
+    line-height: 80px;
+    text-align: right;
+}
+
+.call-to-action .btn{
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
 }
 
 .nav-link{
@@ -117,7 +126,12 @@ footer .content{
 
 .debug .card{
     background-color: violet;
-    width: calc(150px - 10px);
+    width: calc(100% / 2 - 10px);
     height: 200px;
     margin: 10px 5px 10px 0;
+}
+
+.debug .card img{
+    width: 100%;
+    object-fit: contain;
 }

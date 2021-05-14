@@ -229,3 +229,15 @@
     max-width: calc((100% / 12) * 12);
 }
 
+.btn{
+    cursor: pointer;
+    border: 1px solid white;
+    text-decoration: none;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 25rem;
+}
+
+.btn-lg{
+    padding: 8px 30px;
+}
