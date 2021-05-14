@@ -140,6 +140,7 @@ body{
 
 .title-playlist{
     font-size: 14px;
+    color: white;
 }
 
 .sub-title-playlist{
@@ -147,11 +148,49 @@ body{
     line-height: 1.6;
 }
 
+.save-favorite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: grey;
+}
+
 /* footer */
 footer .content{
     background: rgb(40, 40, 40);
     height: 80px;
 }
+
+footer .song-play{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+footer .save-favorite{
+    height: 80px;
+ }
+
+ .song-play img{
+    max-height: 36px;
+    margin-left: 5%;
+ }
+
+ .song-play .info-playlist{
+     text-align: left;
+     margin: 0 12px 0 7px;
+     font-size: 10px;
+ }
+
+ .song-play
+
+ footer .save-favorite{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding-left: 5px;
+     color: grey;
+ }
 
 
 
@@ -185,3 +224,18 @@ footer .content{
 .debug .card{
     background-color: violet;
 }
+
+.debug footer .content{
+   background: cornflowerblue;
+   border: 1px solid black;
+}
+
+.debug footer .song-play{
+    background: yellow;
+    border: 1px solid black;
+}
+
+ .debug footer .save-favorite{
+    background: pink;
+    border: 1px solid black;
+ }
