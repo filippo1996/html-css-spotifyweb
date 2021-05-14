@@ -7,13 +7,15 @@
     <title>Spotify</title>
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <!-- framework flix -->
     <link rel="stylesheet" href="css/flix.css">
     <!-- style sheet template-->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="debug">
+<body>
     <div class="container-fluid">
         <!-- main content -->
         <main>
@@ -75,42 +77,174 @@
                                 </nav>
                                 <div class="content-cards">
                                    <!-- section recently playlist-->
-                                    <section>
-                                        <h2>Recently playlist</h2>
+                                    <section class="playlist">
+                                        <h2 class="category-playlist">Recently playlist</h2>
                                         <div class="row">
-                                            <div class="col-12 d-flex flex-wrap">
-                                                <div class="card">
-                                                    <img src="img/youg.jpeg" alt="album-natura">
+                                            <div class="col-6 d-flex flex-wrap">
+                                                <div class="content-card">
+                                                    <div class="img-card">
+                                                        <img src="img/metal_lifting.jpg" alt="metal lifting">
+                                                        <div class="overlay">
+                                                            <div class="icon-play">
+                                                                <i class="far fa-play-circle"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-playlist">
+                                                        <h3 class="title-playlist">Heavy Metal</h3>
+                                                        <h5 class="sub-title-playlist">Subtitle</h5>
+                                                    </div>
                                                 </div>
-                                                <div class="card"></div>
-                                                <div class="card"></div>
-                                                <div class="card"></div>
-                                                <div class="card"></div>
-                                                <div class="card"></div>
+                                            </div>
+                                            <div class="col-6 d-flex flex-wrap">
+                                                <div class="content-card">
+                                                    <div class="img-card">
+                                                        <img src="img/stranger.jpeg" alt="stranger">
+                                                        <div class="overlay">
+                                                            <div class="icon-play">
+                                                                <i class="far fa-play-circle"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-playlist">
+                                                        <h3 class="title-playlist">Stranger things, Vol.1(a Netflix Originals Series Soundtrack)</h3>
+                                                        <h5 class="sub-title-playlist">Kyle Dixon & Michael Stein</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex flex-wrap">
+                                                <div class="content-card">
+                                                    <div class="img-card">
+                                                        <img src="img/aquietplace.jpeg" alt="a quite place">
+                                                        <div class="overlay">
+                                                            <div class="icon-play">
+                                                                <i class="far fa-play-circle"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-playlist">
+                                                        <h3 class="title-playlist">A queit place</h3>
+                                                        <h5 class="sub-title-playlist">Subtitle</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex flex-wrap">
+                                                <div class="content-card">
+                                                    <div class="img-card">
+                                                        <img src="img/split.jpeg" alt="split">
+                                                        <div class="overlay">
+                                                            <div class="icon-play">
+                                                                <i class="far fa-play-circle"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-playlist">
+                                                        <h3 class="title-playlist">Split</h3>
+                                                        <h5 class="sub-title-playlist">Subtitle</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex flex-wrap">
+                                                <div class="content-card">
+                                                    <div class="img-card">
+                                                        <img src="img/cure.jpeg" alt="A cure for wellness">
+                                                        <div class="overlay">
+                                                            <div class="icon-play">
+                                                                <i class="far fa-play-circle"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-playlist">
+                                                        <h3 class="title-playlist">A cure for wellness</h3>
+                                                        <h5 class="sub-title-playlist">Subtitle</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex flex-wrap">
+                                                <div class="content-card">
+                                                    <div class="img-card">
+                                                        <img src="img/sinister.jpeg" alt="sinister">
+                                                        <div class="overlay">
+                                                            <div class="icon-play">
+                                                                <i class="far fa-play-circle"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-playlist">
+                                                        <h3 class="title-playlist">Sinister</h3>
+                                                        <h5 class="sub-title-playlist">Subtitle</h5>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </section>
                                    <!-- end section recently playlist-->
 
                                    <!-- section created for-->
-                                   <section>
-                                       <h2>Creato per Filippo Mazzamuto</h2>
+                                   <section class="playlist">
+                                       <h2 class="category-playlist">Creato per Filippo Mazzamuto</h2>
+                                       <h5 class="sub-title-playlist">Più ascolti, più accurati saranno i suggerimenti</h5>
                                        <div class="row">
-                                        <div class="col-12 d-flex flex-wrap">
-                                            <div class="card"></div>
-                                            <div class="card"></div>
+                                        <div class="col-6 d-flex flex-wrap">
+                                            <div class="content-card">
+                                                <div class="img-card">
+                                                    <img src="img/radar.jpeg" alt="radar">
+                                                    <div class="overlay">
+                                                        <div class="icon-play">
+                                                            <i class="far fa-play-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="info-playlist">
+                                                    <h3 class="title-playlist">Release Radar</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 d-flex flex-wrap">
+                                            <div class="content-card">
+                                                <div class="img-card">
+                                                    <img src="img/mixdaily.jpeg" alt="Dally Mix">
+                                                    <div class="overlay">
+                                                        <div class="icon-play">
+                                                            <i class="far fa-play-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="info-playlist">
+                                                    <h3 class="title-playlist">Dally Mix 1</h3>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                    </section>
                                    <!-- end section created for-->
 
                                    <!-- section more polar artists-->
-                                   <section>
-                                       <h2>Artisti più popolari</h2>
+                                   <section class="playlist">
+                                       <h2 class="category-playlist">Artisti più popolari</h2>
+                                       <h5 class="sub-title-playlist">Più ascolti, più accurati saranno i suggerimenti</h5>
                                        <div class="row">
-                                        <div class="col-12 d-flex flex-wrap">
-                                            <div class="card"></div>
-                                            <div class="card"></div>
+                                        <div class="col-6 d-flex flex-wrap">
+                                            <div class="content-card">
+                                                <div class="img-card">
+                                                    <img class="rounded-circle" src="img/youg.jpeg" alt="Lana del Rey">
+                                                    <div class="overlay rounded-circle"></div>
+                                                </div>
+                                                <div class="info-playlist">
+                                                    <h3 class="title-playlist">Lana del Rey</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 d-flex flex-wrap">
+                                            <div class="content-card">
+                                                <div class="img-card">
+                                                    <img class="rounded-circle" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
+                                                    <div class="overlay rounded-circle"></div>
+                                                </div>
+                                                <div class="info-playlist">
+                                                    <h3 class="title-playlist">Ludovico Einaudi</h3>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                    </section>
