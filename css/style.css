@@ -230,6 +230,20 @@ footer .save-favorite{
     color: white;
 }
 
+.duration.volume{
+    height: 80px;
+    justify-content: flex-end;
+    color: white;
+}
+
+.duration.volume > *{
+    margin-right: 5%;
+}
+
+.duration.volume .bar{
+    width: 35%;
+}
+
 
 
 /* debug */
