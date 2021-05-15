@@ -177,20 +177,58 @@ footer .save-favorite{
  }
 
  .song-play .info-playlist{
-     text-align: left;
-     margin: 0 12px 0 7px;
-     font-size: 10px;
+    text-align: left;
+    margin: 0 12px 0 7px;
+    font-size: 10px;
  }
-
- .song-play
 
  footer .save-favorite{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     padding-left: 5px;
-     color: grey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    color: grey;
  }
+
+ .playback-buttons{
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 59px;
+ }
+
+ .playback-buttons i{
+    margin-right: 5px;
+ }
+
+ .duration{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.duration .bar{
+    display: inline-block;
+    width: 80%;
+    height: 5px;
+    border-radius: 10px;
+    background: gray;
+}
+
+.bar .last-time{
+    width: 40%;
+    height: 5px;
+    border-radius: 10px;
+    background: white;
+}
+
+.duration .time{
+    font-size: 10px;
+    color: white;
+}
 
 
 
@@ -238,4 +276,12 @@ footer .save-favorite{
  .debug footer .save-favorite{
     background: pink;
     border: 1px solid black;
+ }
+
+ .debug .playback-buttons{
+    background:burlywood;
+ }
+
+ .debug .duration{
+     background: crimson;
  }
