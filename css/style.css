@@ -13,7 +13,6 @@ body{
     justify-content: space-between;
     height: 100%;
     overflow-y: hidden;
-
 }
 
 .background-main{
@@ -61,6 +60,7 @@ ul{
     background-color: grey;
     border-radius: 50%;
     padding: 1px 3px;
+    width: 35px;
 }
 
 .padding-xs-nav{
@@ -290,6 +290,7 @@ footer .save-favorite{
         display: block;
         padding: 5px;
         height: 100%;
+        overflow: hidden;
     }
 
     .cont-playlist h3{
@@ -305,7 +306,7 @@ footer .save-favorite{
 
     .list-nav-link{
         margin-top: 20px;
-        height: calc(70vh - 50%);
+        height: 70%;
         overflow-y: auto;
     }
 
@@ -325,7 +326,6 @@ footer .save-favorite{
         width: calc(100% - 200px);
     }
 
-
 }
 
 
@@ -343,7 +343,7 @@ footer .save-favorite{
     background: yellow;
 }
 */
-
+/*
 .debug div.padding-y-content-card{
     background: red;
 }
@@ -382,3 +382,4 @@ footer .save-favorite{
  .debug .duration{
      background: crimson;
  }
+ */

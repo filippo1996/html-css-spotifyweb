@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico">
     <title>Spotify</title>
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,21 +16,21 @@
     <!-- style sheet template-->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="debug">
+<body>
     <div class="container-fluid">
         <!-- main content -->
         <main>
             <div class="row flex-nowrap vh-100">
                 <div class="col-nav">
                     <!-- section main menu -->
-                    <section class="h-100 left-nav">
+                    <div class="h-100 left-nav">
                         <nav>
                             <ul class="padding-xs-nav">
                                 <li class="logo margin-xs-bottom d-none">
-                                    <a href="#"><img class="ico-nav" src="img/logo.svg"></a>
+                                    <a href="#"><img class="ico-nav" src="img/logo.svg" alt="logo grande spotify"></a>
                                 </li>
                                 <li class="logo-small margin-xs-bottom">
-                                    <a class="nav-link" href="#"><img class="ico-nav" src="img/logo-small.svg"></a>
+                                    <a class="nav-link" href="#"><img class="ico-nav" src="img/logo-small.svg" alt="logo piccolo spotify"></a>
                                 </li>
                                 <li class="margin-xs-bottom active-ico">
                                     <a class="nav-link active" href="#"><svg class="ico-nav svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="#ffffff"/></svg><span class="text-sm">Home</span></a>
@@ -75,14 +76,14 @@
                             <ul class="padding-xs-nav">
                                 <li class="margin-bottom">
                                     <a class="nav-link" href="#"><svg class="ico-download svg" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Download icon</title><path d="M12 11.657V6h-1v5.65L9.076 9.414l-.758.65 3.183 3.702 3.195-3.7-.758-.653L12 11.657zM11.5 2C7.358 2 4 5.358 4 9.5c0 4.142 3.358 7.5 7.5 7.5 4.142 0 7.5-3.358 7.5-7.5C19 5.358 15.642 2 11.5 2zm0 14C7.916 16 5 13.084 5 9.5S7.916 3 11.5 3 18 5.916 18 9.5 15.084 16 11.5 16z" fill="#ffffff" fill-rule="evenodd"/></svg><span class="text-sm">Installa app</span></a>
+                                    <hr class="hr d-none">
                                 </li>
-                                <hr class="hr d-none">
                                 <li class="margin-xs-bottom">
                                     <a class="nav-link" href="#"><svg class="ico-nav avatar svg" viewBox="0 0 80 90" xmlns="http://www.w3.org/2000/svg"><title>User Icon</title><path d="M67.74 61.78l-14.5-8.334c-.735-.422-1.24-1.145-1.385-1.98-.145-.835.088-1.685.638-2.33l5.912-6.93c3.747-4.378 5.81-9.967 5.81-15.737v-2.256c0-6.668-2.792-13.108-7.658-17.67C51.622 1.92 45.17-.386 38.392.054c-12.677.82-22.607 11.772-22.607 24.934v1.483c0 5.77 2.063 11.36 5.81 15.736l5.912 6.933c.55.644.783 1.493.638 2.33-.143.834-.648 1.556-1.383 1.98l-14.494 8.33C4.7 66.077 0 74.15 0 82.844v6.76h3.333v-6.76c0-7.5 4.055-14.46 10.59-18.174l14.5-8.334c1.597-.918 2.692-2.487 3.007-4.302.315-1.815-.19-3.66-1.387-5.06l-5.913-6.936c-3.23-3.775-5.01-8.594-5.01-13.57v-1.484c0-11.41 8.562-20.9 19.488-21.608 5.85-.377 11.415 1.61 15.67 5.598 4.26 3.992 6.605 9.404 6.605 15.24v2.254c0 4.976-1.778 9.796-5.01 13.57l-5.915 6.935c-1.195 1.4-1.7 3.246-1.386 5.06.313 1.816 1.41 3.385 3.008 4.303l14.507 8.338c6.525 3.71 10.58 10.67 10.58 18.17v6.76H80v-6.76c0-8.695-4.7-16.768-12.26-21.063z" fill="#ffffff" fill-rule="evenodd"/></svg><span class="text-sm"> Filippo Mazzamuto</span></a>
                                 </li>
                             </ul>
                         </nav>
-                    </section>
+                    </div>
                     <!-- end section main menu -->
                 </div>
                 <div class="col-auto background-main">
@@ -94,7 +95,7 @@
                         <!-- end call to action -->
 
                         <!-- section content cards playlist-->
-                        <section class="flex-grow-1">
+                        <div class="flex-grow-1">
                             <div class="col-12 padding-x padding-y-content-card">
                                 <nav>
                                     <ul class="nav nav-main justify-content-center">
@@ -111,7 +112,7 @@
                                     <section class="playlist">
                                         <h2 class="category-playlist">Recently playlist</h2>
                                         <div class="row">
-                                            <div class="col-6 d-flex flex-wrap">
+                                            <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                                 <div class="content-card">
                                                     <div class="img-card">
                                                         <img src="img/metal_lifting.jpg" alt="metal lifting">
@@ -127,7 +128,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-6 d-flex flex-wrap">
+                                            <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                                 <div class="content-card">
                                                     <div class="img-card">
                                                         <img src="img/stranger.jpeg" alt="stranger">
@@ -143,7 +144,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-6 d-flex flex-wrap">
+                                            <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                                 <div class="content-card">
                                                     <div class="img-card">
                                                         <img src="img/aquietplace.jpeg" alt="a quite place">
@@ -159,7 +160,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-6 d-flex flex-wrap">
+                                            <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                                 <div class="content-card">
                                                     <div class="img-card">
                                                         <img src="img/split.jpeg" alt="split">
@@ -175,7 +176,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-6 d-flex flex-wrap">
+                                            <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                                 <div class="content-card">
                                                     <div class="img-card">
                                                         <img src="img/cure.jpeg" alt="A cure for wellness">
@@ -191,7 +192,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-6 d-flex flex-wrap">
+                                            <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                                 <div class="content-card">
                                                     <div class="img-card">
                                                         <img src="img/sinister.jpeg" alt="sinister">
@@ -216,7 +217,7 @@
                                        <h2 class="category-playlist">Creato per Filippo Mazzamuto</h2>
                                        <h5 class="sub-title-playlist">Più ascolti, più accurati saranno i suggerimenti</h5>
                                        <div class="row">
-                                        <div class="col-6 d-flex flex-wrap">
+                                        <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                             <div class="content-card">
                                                 <div class="img-card">
                                                     <img src="img/radar.jpeg" alt="radar">
@@ -231,7 +232,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 d-flex flex-wrap">
+                                        <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                             <div class="content-card">
                                                 <div class="img-card">
                                                     <img src="img/mixdaily.jpeg" alt="Dally Mix">
@@ -255,7 +256,7 @@
                                        <h2 class="category-playlist">Artisti più popolari</h2>
                                        <h5 class="sub-title-playlist">Più ascolti, più accurati saranno i suggerimenti</h5>
                                        <div class="row">
-                                        <div class="col-6 d-flex flex-wrap">
+                                        <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                             <div class="content-card">
                                                 <div class="img-card">
                                                     <img class="rounded-circle" src="img/youg.jpeg" alt="Lana del Rey">
@@ -266,7 +267,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 d-flex flex-wrap">
+                                        <div class="col-6 col-md-3 col-lg-2 d-flex flex-wrap">
                                             <div class="content-card">
                                                 <div class="img-card">
                                                     <img class="rounded-circle" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
@@ -282,7 +283,7 @@
                                    <!-- end section more polar artists-->
                                 </div>
                             </div>
-                        </section>
+                        </div>
                         <!-- end section content cards playlist-->
                     </div>
                 </div>
@@ -296,7 +297,7 @@
                 <div class="col-4">
                     <div class="content d-flex">
                         <div class="song-play">
-                            <img src="img/sinister.jpeg">
+                            <img src="img/sinister.jpeg" alt="sinister">
                             <div class="info-playlist">
                                 <h3 class="title-playlist">Sinister</h3>
                                 <h5 class="sub-title-playlist">Subtitle</h5>
