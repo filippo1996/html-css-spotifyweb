@@ -110,6 +110,10 @@
     color: #0d6efd;
 }
 
+.nav-link:hover{
+    color: white;
+}
+
 .d-none{
     display: none;
 }

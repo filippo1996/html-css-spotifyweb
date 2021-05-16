@@ -90,16 +90,18 @@
                     <div class="row h-100 overflow-y-auto">
                         <!-- call to action -->
                         <div class="call-to-action position-fixed">
-                            <a class="btn btn-lg" href="#">Effettua l'upgrade</a>
+                            <a class="scale btn btn-lg" href="#">Effettua l'upgrade</a>
                         </div>
                         <!-- end call to action -->
 
                         <!-- section content cards playlist-->
                         <div class="flex-grow-1">
                             <div class="col-12 padding-x padding-y-content-card">
-                                <nav>
+                                <nav id="nav-main">
                                     <ul class="nav nav-main justify-content-center">
-                                        <li class="margin-right-link"><a class="nav-link" href="#">In evidenza</a></li>
+                                        <li class="active-link margin-right-link">
+                                            <a class="nav-link" href="#">In evidenza</a>
+                                        </li>
                                         <li class="margin-right-link"><a class="nav-link" href="#">Podcast</a></li>
                                         <li class="margin-right-link"><a class="nav-link" href="#">Classifiche</a></li>
                                         <li class="margin-right-link"><a class="nav-link" href="#">Generi e mood</a></li>
@@ -305,10 +307,10 @@
                         </div>
                         <div class="save-favorite">
                             <div class="favorites">
-                                <i class="far fa-heart"></i>
+                                <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
                             </div>
-                            <div class="archive">
-                                <i class="far fa-folder"></i>
+                            <div class="archive nav-link">
+                                <a class="nav-link" href="#"><i class="far fa-folder"></i></a>
                             </div>
                         </div>
                     </div>
@@ -318,14 +320,16 @@
                         <div class="playback-buttons">
                             <i class="fas fa-random"></i>
                             <i class="fas fa-step-backward"></i>
-                            <i class="far fa-play-circle"></i>
+                            <i class="scale far fa-play-circle"></i>
                             <i class="fas fa-step-forward"></i>
                             <i class="fas fa-redo"></i>
                         </div>
                         <div class="duration">
                             <span class="time">1:25</span>
                             <div class="bar">
-                                <div class="last-time"></div>
+                                <div class="last-time">
+                                    <div class="progess-bar d-none"><span class="pointer"></span></div>
+                                </div>
                             </div>
                             <span class="time">4:35</span>
                         </div>
@@ -338,7 +342,9 @@
                             <i class="fas fa-desktop"></i>
                             <i class="fas fa-volume-up"></i>
                             <div class="bar">
-                                <div class="last-time"></div>
+                                <div class="last-time">
+                                    <div class="progess-bar d-none"><span class="pointer"></span></div>
+                                </div>
                             </div>
                         </div>
                     </div>

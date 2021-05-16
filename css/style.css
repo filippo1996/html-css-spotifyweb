@@ -39,6 +39,14 @@ ul{
     padding: 0 8px;
 }
 
+.nav.nav-main{
+    align-items: flex-start;
+}
+
+.nav.nav-main li{
+    text-align: center;
+}
+
 .active-ico{
     border-left: 4px solid limegreen;
     margin-left: -4px;
@@ -46,6 +54,13 @@ ul{
 
 .active{
     color: white !important;
+}
+
+.active-link::after{
+    content: '';
+    display: inline-block;
+    width: 40%;
+    border-bottom: 3px solid limegreen;
 }
 
 .text-sm{
@@ -76,23 +91,35 @@ ul{
 }
 
 .call-to-action{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background: rgba(0, 0, 0, 0.5);
     width: calc(100% - 50px);
     height: 80px;
-    line-height: 80px;
-    text-align: right;
     z-index: 1;
 }
 
 .call-to-action .btn{
+    display: inline-block;
     color: white;
     text-transform: uppercase;
     margin-right: 20px;
 }
 
+.scale:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
 .nav-link{
     color: grey;
     text-transform: uppercase;
+}
+
+#nav-main li{
+    line-height: 6px;
 }
 
 .margin-right-link{
@@ -234,13 +261,37 @@ footer .save-favorite{
     height: 5px;
     border-radius: 10px;
     background: gray;
+    cursor: pointer;
 }
 
 .bar .last-time{
     width: 40%;
     height: 5px;
     border-radius: 10px;
+    background: rgb(201, 197, 197);
+}
+
+.bar .progess-bar{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: limegreen;
+    position: relative;
+}
+
+.progess-bar .pointer{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -7.5px;
+    right: 0;
     background: white;
+    border-radius: 50%;
+}
+
+.bar:hover .d-none{
+    display: block;
 }
 
 .duration .time{
@@ -329,57 +380,3 @@ footer .save-favorite{
 }
 
 
-/* debug */
-/*
-.debug .box{
-    background: red;
-}
-
-.debug .container-fluid{
-    background-color: pink;
-}
-
-.debug section.h-100{
-    background: yellow;
-}
-*/
-/*
-.debug div.padding-y-content-card{
-    background: red;
-}
-
-.debug .nav-main{
-    background: blue;
-}
-
-.debug .content-cards{
-    background:chartreuse;
-}
-
-.debug .card{
-    background-color: violet;
-}
-
-.debug footer .content{
-   background: cornflowerblue;
-   border: 1px solid black;
-}
-
-.debug footer .song-play{
-    background: yellow;
-    border: 1px solid black;
-}
-
- .debug footer .save-favorite{
-    background: pink;
-    border: 1px solid black;
- }
-
- .debug .playback-buttons{
-    background:burlywood;
- }
-
- .debug .duration{
-     background: crimson;
- }
- */
