@@ -245,3 +245,11 @@
 .rounded-circle{
     border-radius: 50%;
 }
+
+.svg{
+    vertical-align: middle;
+}
+
+.text-none{
+    text-transform: none !important;
+}
