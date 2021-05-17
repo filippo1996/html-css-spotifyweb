@@ -379,4 +379,9 @@ footer .save-favorite{
 
 }
 
+@media screen and (max-height: 350px){
+    .call-to-action{
+        display: none;
+    }
+}
 
